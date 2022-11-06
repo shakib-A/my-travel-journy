@@ -7,8 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'fuji': "url(/public/img/fuji.jpg)",
-        'syndey': "url(/public/img/sydney.jpg)",
-        'geiranger': "url(/public/img/Geiranger.jpg)"
+        'sydney': "url(/public/img/sydney.jpg)",
+        'geiranger': "url(/public/img/Geiranger.jpg)",
+        'damavand': "url(/public/img/damavand.jpg)"
       }
     },
   },

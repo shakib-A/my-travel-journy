@@ -1,11 +1,10 @@
-import { Container } from 'postcss'
 import React from 'react'
 
 const Card = (props) => {
 
   return (
     <div id="card-container" className="h-72 w-full flex justify-center items-center p-8 gap-4">
-      <div id="bg-container" className="bg-fuji bg-center bg-cover h-full w-40 rounded-md"></div>
+      <div id="bg-container" className={`bg-${props.imageUrl} bg-center bg-cover h-full w-40 rounded-md`}></div>
       <div id="info-container" className="basis-2/3">
         <div id="location" className='flex gap-4'>
           <div id="country" className='tracking-widest uppercase'><i className='fa-solid fa-location-dot text-red-600'></i> {props.location}</div>
